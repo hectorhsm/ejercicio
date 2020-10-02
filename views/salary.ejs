@@ -1,19 +1,39 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <link rel='stylesheet' href='css/main.css'>
     </head>
 
     <body>
+        <h4> Total de la muestra analizada y salario medio</h4>
+        <table id="customers">
+            <tr>
+              <th>Muestra total</th>
+              <th>Salario medio</th>
+            </tr>
+            <tr>
+              <td><%= text2 %></td>
+              <td><%= text5 %></td>
+            </tr>  
+          </table>
+          
+    </body>
 
-        <h2>ID de la muestra: <%= text1 %></h2>
-
-        <h3>Nombre: <%= text3 %></h3>
-        <h3>Posición: <%= text4 %></h3>
-        <h3>Salario máximo: <%= text0 %> $</h3>
-       
-        <h3>Muestra total: <%= text2 %></h3>
-        <h3>Media salarial: <%= text5 %> $</h3>
-        
+    <body>
+        <h4> Resultado de salario más alto de la muestra:</h4>
+        <table id="customers">
+            <tr>
+              <th>Id</th>
+              <th>Nombre</th>
+              <th>Posición</th>
+              <th>Salario Máximo</th>
+            </tr>
+            <tr>
+              <td><%= text1 %></td>
+              <td><%= text3 %></td>
+              <td><%= text4 %></td>
+              <td><%= text0 %> $</td>
+            </tr>  
+          </table>
     </body>
 </html>
